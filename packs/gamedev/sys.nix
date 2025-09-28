@@ -10,5 +10,7 @@
     aseprite
 
     blender
+
+    unityhub
   ];
 }
