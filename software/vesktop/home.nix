@@ -17,7 +17,7 @@
     }
   '';
 
-  config.home.file.".config/vesktop/settings/settings.json".source = config.lib.file.mkOutOfStoreSymlink ./vesktop.json;
+  # config.home.file.".config/vesktop/settings/settings.json".source = config.lib.file.mkOutOfStoreSymlink ./vesktop.json;
 
   config.home.file.".config/vesktop/state.json".text = ''
     {
