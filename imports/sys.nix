@@ -40,9 +40,6 @@
     # Vesktop (Custom Discord Client)
     ../software/vesktop/sys.nix
 
-    # Gnome Calendar with CalDAV support
-    ../software/calendar/sys.nix
-
     # Game Development Pack
     ../packs/gamedev/sys.nix
   ];
