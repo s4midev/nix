@@ -40,6 +40,8 @@
     # Vesktop (Custom Discord Client)
     ../software/vesktop/sys.nix
 
+    ../software/vr/sys.nix
+
     # Game Development Pack
     ../packs/gamedev/sys.nix
   ];

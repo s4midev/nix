@@ -19,5 +19,8 @@
 
     # Nintendo 3ds Emulator
     azahar
+
+    # Beat Saber Manager
+    bs-manager
   ];
 }
