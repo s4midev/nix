@@ -30,6 +30,8 @@
 
   programs.obs-studio.enable = true;
 
+  programs.light.enable = true;
+
   nixpkgs.config.cudaSupport = true;
 
   programs.steam = {

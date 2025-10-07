@@ -35,5 +35,9 @@
 
     # Required for some things like nemo
     cinnamon-common
+    
+    icu
+
+    ddcutil
   ];
 }

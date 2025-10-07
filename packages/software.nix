@@ -71,5 +71,11 @@
     # Windows Compat Layer
     wine64
     wine
+
+    # Ebook Client
+    foliate
+
+    # Auto Disk Mount
+    udiskie
   ];
 }

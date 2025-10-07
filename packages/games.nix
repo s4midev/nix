@@ -16,5 +16,8 @@
 
     # modding tool
     r2modman
+
+    # Nintendo 3ds Emulator
+    azahar
   ];
 }

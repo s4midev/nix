@@ -56,10 +56,25 @@
     enable = true;
     extraConfig = ''
       confirm_os_window_close 0
+      background_opacity 1
+      background_blur 0
+      window_padding_width 4 4 4 8
     '';
     environment = {
       "IMMICH_INSTANCE_URL" = "http://192.168.0.85:2283";
       "IMMICH_API_KEY" = "61mwmSJWw1mQB0I9U6YckGgVMTjwRIAVdu7rgawcQ";
+    };
+  };
+
+  services.udiskie = {
+    enable = true;
+
+    settings = {
+      # workaround for
+      # https://github.com/nix-community/home-manager/issues/632
+      program_options = {
+        file_manager = "${pkgs.nemo-with-extensions}/bin/nemo";
+      };
     };
   };
 

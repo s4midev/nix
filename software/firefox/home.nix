@@ -150,7 +150,7 @@
             }
             {
               name = "Karakeep";
-              url = "http://192.168.0.85:3000";
+              url = "https://karakeep.s4mi.gay";
             }
             {
               name = "Music";

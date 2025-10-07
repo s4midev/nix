@@ -42,4 +42,6 @@
 
   # xbox controller support
   config.hardware.xone.enable = true;
+
+  config.services.udisks2.enable = true;
 }

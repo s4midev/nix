@@ -28,6 +28,9 @@
         "[typescript]" = {
           "editor.defaultFormatter" = "esbenp.prettier-vscode";
         };
+        "[csharp]" = {
+          "editor.defaultFormatter" = "ms-dotnettools.csharp";
+        };
         "editor.fontFamily" = "ComicShannsMono Nerd Font Mono";
         "terminal.integrated.fontFamily" = "ComicShannsMono Nerd Font Mono";
       };
