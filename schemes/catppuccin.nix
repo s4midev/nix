@@ -15,6 +15,7 @@
       gtk.enable = true;
       nixcord.enable = false;
       vscode.enable = false;
+      gnome.enable = true;
 
       hyprlock.enable = true;
 
