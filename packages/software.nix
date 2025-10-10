@@ -77,5 +77,8 @@
 
     # Auto Disk Mount
     udiskie
+
+    # Bottles
+    bottles
   ];
 }

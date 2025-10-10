@@ -44,5 +44,7 @@
 
     # Game Development Pack
     ../packs/gamedev/sys.nix
+
+    ../software/plasma/sys.nix
   ];
 }
